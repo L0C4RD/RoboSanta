@@ -30,8 +30,6 @@ if (OAuth_token is None):
 #script, but you can move it around by specifying a path here.
 pfile = "./naughtylist.txt"
 
-bot_name = "robosanta"
-
 
 #the RoboSanta class basically does all the things.
 class RoboSanta_class(object):
@@ -59,7 +57,7 @@ class RoboSanta_class(object):
             users = api_call.get("members")
             self.userlist = users
             for user in users:
-                if (("name" in user) and (user.get("name") == bot_name)):
+                if (("name" in user) and (user.get("name") == "robosanta")):
                     self.botid = user.get("id")
                     self.atme = "<@" + self.botid + ">"
 

@@ -1,5 +1,5 @@
 # RoboSanta
-A Slack Bot for organising secret santa events.
+A Slack Bot for organising Secret Santa events.
 
 ## Easy Setup
 
@@ -27,11 +27,13 @@ A Slack Bot for organising secret santa events.
 
 7. Edit the `target_sources` variable such that it is a list containing the names of the channels you'd like the bot to listen to.
 
-8. Run the bot:
+8. Run the bot, passing your API token (from step 2) as an environment variable:
 
 	```bash
 	SLACK_TOKEN=<your_api_token> python ./robosanta.py
 	```
+
+
 
 ## Interacting with the bot
 
