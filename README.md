@@ -13,15 +13,15 @@ A Slack Bot for organising secret santa events.
 
 4. Clone the repo:
 
-```bash
-git clone git@github.com:L0C4RD/RoboSanta.git
-```
+	```bash
+	git clone git@github.com:L0C4RD/RoboSanta.git
+	```
 
 5. Install the slackclient module for python:
 
-```bash
-pip install slackclient
-```
+	```bash
+	pip install slackclient
+	```
 
 6. Find the file `robosanta.py` in your newly-cloned repo.
 
@@ -29,9 +29,9 @@ pip install slackclient
 
 8. Run the bot:
 
-```bash
-SLACK_TOKEN=<your_api_token> python ./robosanta.py
-```
+	```bash
+	SLACK_TOKEN=<your_api_token> python ./robosanta.py
+	```
 
 ## Interacting with the bot
 
@@ -51,4 +51,32 @@ This is just a bit of Python I hacked together on a Friday afternoon. As such, i
 I've tested it on my end and it seems pretty robust - my team had a jolly good stab at breaking it and weren't able to cause it to do anything awful.
 
 ###Merry Christmas!
+
+```
+
+                            _
+                         __{_}_
+                       .'______'-.
+                     _:-'      `'-:
+                _   /   _______    `\
+             .-' \  \.-'       `'--./
+           .'  \  \ /  () ___ ()    \
+           \ \\\#  ||    (___)      |
+            \  #\\_||   '.___.'     |
+             \___|\  \_________.--./
+                  \\ |         \   \--.
+                   \\/_________/   /   `\       ,
+                   .\\        /`--;`-.   `-.__.'/
+                  / _\\   ,_.'   _/ \ \        /
+                 |    `\   \   /`    | '.___.-'
+                  \____/\   '--\____/
+                 /      \\           \
+                |        \\           |
+                |         \\          |
+                |          \\         |
+                \           \\        /::.:::..
+                 '.___..-.__.\\__.__.':::::::'''''
+
+```
+
 
